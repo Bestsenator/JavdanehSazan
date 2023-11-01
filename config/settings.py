@@ -36,8 +36,6 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:12457',
     'http://localhost:8080',
     'http://localhost:1821',
-    'https://admin.akhtarak1024.ir',
-    'http://admin.akhtarak1024.ir',
 ]
 
 CSRF_COOKIE_HTTPONLY = True
@@ -122,8 +120,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'jvds',
         'USER': 'turquoise',
-        'PASSWORD': 'Faemoh90@',
-        'HOST': '185.231.115.148',
+        'PASSWORD': 'test',
+        'HOST': 'test',
         'PORT': '5432',
     }
 }
