@@ -43,9 +43,6 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_COOKIE_HTTPONLY = True
 SESSION_COOKIE_HTTPONLY = True
 
-# SESSION_COOKIE_SAMESITE = 'None'
-# CSRF_COOKIE_SAMESITE = 'None'
-
 
 # Application definition
 
@@ -58,9 +55,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'rest_framework',
     'index',
-    # 'api',
-    # 'apiPanel',
+    'api',
 ]
 
 CORS_ALLOW_HEADERS = (
