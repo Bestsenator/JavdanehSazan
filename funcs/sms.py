@@ -1,7 +1,7 @@
 import requests
 
 headersPanelSms = {
-    'X-API-KEY': 'ZpsaT3IXsAvlnBTwWkWcD0RSmwfs6YyuBFnPEWFCMgTOP3mgTeyfayaTrwBw4GHK'
+    'X-API-KEY': 'test'
 }
 
 
